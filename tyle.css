@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom-two {
+    background: oklch(96.7% 0.003 264.542);
+}
+
+
+.center {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.center-item {
+    width: 60%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.center-1,
+.center-2,
+.center-3,
+.center-4,
+.center-5,
+.center-6,
+.center-7,
+.center-8,
+.center-9,
+.center-10,
+.center-11,
+.center-12 {
+    width: 60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.center-1 {
+    background: oklch(96.2% 0.044 156.743);
+}
+
+.center-2 {
+    background: oklch(93.6% 0.032 17.717);
+}
+
+.center-3 {
+    background: oklch(93.2% 0.032 255.585);
+}
+
+.center-4 {
+    background: oklch(94.6% 0.033 307.174);
+}
+
+.center-5 {
+    background: oklch(94.8% 0.028 342.258);
+}
+
+.center-6 {
+    background: oklch(97.3% 0.071 103.193);
+}
+
+.center-7 {
+    background: oklch(93% 0.034 272.788);
+}
+
+.center-8 {
+    background: oklch(96.7% 0.003 264.542);
+}
+
+.center-9 {
+    background: oklch(95% 0.052 163.051);
+}
+
+.center-10 {
+    background: oklch(96.2% 0.059 95.617);
+}
+
+.center-11 {
+    background: oklch(96.7% 0.067 122.328);
+}
+
+.center-12 {
+    background: #000;
+    color: #fff;
+}
+
+.center-watch {
+    width: 40%;
+    height: 600px;
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+}
+
+.center-clock {
+    width: 40%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: oklch(96.2% 0.044 156.743);
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+.center-step {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px;
+    background: oklch(96.7% 0.003 264.542);
+    border-radius: 10px;
+}
+
+.step-items {
+
+}
